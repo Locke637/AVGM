@@ -1,0 +1,12 @@
+build/
+result/
+wandb/
+*.so
+*.npy
+*.pkl
+*.png
+__pycache__/
+*.kdev4*
+.vscode/
+renderer/
+model/
