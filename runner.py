@@ -7,10 +7,7 @@ from common.rollout_magent import RolloutWorkerMagent, CommRolloutWorkerMagent
 from agent.agent import Agents, CommAgents
 from common.replay_buffer import ReplayBuffer
 import matplotlib.pyplot as plt
-from renderer import PyGameRenderer
-from renderer.server import BattleServer as Server
 import time
-import pickle
 
 class RunnerMagent:
     def __init__(self, env, args):
